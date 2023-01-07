@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin+Sans";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 223, 196);
+}
+
+.jokeContainer{
+    /* background-color: aqua;
+    padding: 60px 40px;
+    border-radius: 20px; */
+    text-align: center;
+}
+
+.joke{
+    background-color: aqua;
+    padding: 60px 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #282727;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.nextBtn{
+    padding: 9px 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(155, 243, 203);
+    font-size: 15px;
+}
+/* .nextBtn:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-weight: 800;
+} */
